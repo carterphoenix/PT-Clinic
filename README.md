@@ -58,23 +58,5 @@ Before you start, make sure you have these installed on your computer:
 - To stop the website, go back to your terminal where it's running and press:  
   `Ctrl + C`  
 
----
 
-## Additional Notes
 
-- **Editing Files:** You can open the project folder in a text editor like [Visual Studio Code](https://code.visualstudio.com/) to make changes.
-- **Adding Images:** Place any new images inside the `public` folder and reference them from your code.
-- **Publishing:** When ready, you can build the website for production by running:  
-  ```bash
-  npm run build
-  ```
-
----
-
-## Need Help?
-
-If you run into any problems or need help, please contact Carter Morphis at carterpmore@gmail.com.
-
----
-
-Thank you for using the PT Clinic website project!
