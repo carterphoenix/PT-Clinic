@@ -19,11 +19,7 @@ Before you start, make sure you have these installed on your computer:
 
 1. **Download or Clone the Project**
 
-   - If you have Git installed, open your command prompt or terminal and run:  
-     ```bash
-     git clone https://github.com/carterphoenix/PT-Clinic.git
-     ```
-   - Or download the ZIP file from the GitHub page and unzip it.
+   - Download the ZIP file from the GitHub page and unzip it.
 
 2. **Open the Project Folder**
 
