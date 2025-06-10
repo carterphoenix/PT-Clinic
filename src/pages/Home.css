@@ -1,0 +1,62 @@
+.hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f5f9ff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #91c1ff;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .hero button {
+    background-color: #91c1ff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #91c1ff;
+  }
+  
+
+.clinic-photos {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .clinic-photos h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+  }
