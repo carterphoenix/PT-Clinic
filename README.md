@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# PT Clinic Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will help you get the website running on your computer.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you start, make sure you have these installed on your computer:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js** (which includes npm) — download from [https://nodejs.org/](https://nodejs.org/)  
+  This allows you to run the website locally.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to Run the Website Locally
 
-### `npm run build`
+1. **Download or Clone the Project**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - If you have Git installed, open your command prompt or terminal and run:  
+     ```bash
+     git clone https://github.com/carterphoenix/PT-Clinic.git
+     ```
+   - Or download the ZIP file from the GitHub page and unzip it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Open the Project Folder**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Open your command prompt or terminal, then change directory to the project folder. For example:  
+   ```bash
+   cd PT-Clinic
+   ```
 
-### `npm run eject`
+3. **Install Dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Run this command to install everything the website needs to work:  
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Start the Development Server**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Once dependencies are installed, run:  
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   This will start the website locally, and you can view it in your web browser.
 
-## Learn More
+5. **Open the Website**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Your browser should automatically open the site at:  
+   [http://localhost:3000](http://localhost:3000)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   If it doesn’t, open your browser and type that address.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### How to Stop the Website
 
-### Analyzing the Bundle Size
+- To stop the website, go back to your terminal where it's running and press:  
+  `Ctrl + C`  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Additional Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Editing Files:** You can open the project folder in a text editor like [Visual Studio Code](https://code.visualstudio.com/) to make changes.
+- **Adding Images:** Place any new images inside the `public` folder and reference them from your code.
+- **Publishing:** When ready, you can build the website for production by running:  
+  ```bash
+  npm run build
+  ```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Need Help?
 
-### Deployment
+If you run into any problems or need help, please contact Carter Morphis at carterpmore@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using the PT Clinic website project!
